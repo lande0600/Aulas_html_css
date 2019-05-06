@@ -1,0 +1,132 @@
+body{
+    font-family: 'Crimson Text', serif; ,'Times New Roman', serif;
+    background-color: #F2FFFC; 
+    font-size: 120%;
+    line-height: 1.5;
+    }
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', "Arial", sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', "Arial", sans-serif;
+    font-size: 1.5em;
+    clear: both;
+    }
+
+.titulo-principal{
+    font-family: 'Open Sans Condensed', "Arial", sans-serif;
+    text-align: center;
+    color: #FFF;
+    background-color: #851944;
+    padding: 2rem;
+    border-bottom: .5em solid black;
+    }
+
+.container{
+    width: 80ch;
+    padding: 1.5rem 0;
+    margin-left: auto;   
+    margin-right: auto;   
+}
+
+main a{
+    color:#851944;
+}
+
+main p{
+    text-align: justify;
+    margin: 1em 0;
+    }
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+    
+.navegacao-site{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 1rem;
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    top: 310px;
+    right: 0;
+    }
+
+aside, .img-navegacao{
+    box-sizing: border-box;
+    border-left: .5em solid black;
+    border-bottom: .5em solid black;
+}
+
+.img-navegacao{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+main{
+    float: left;
+    width: 80%;
+    padding-bottom: 4em;
+}
+
+.rodape{
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}     
+
+.menu-navegacao{
+    list-style-type: none;
+    text-transform: lowercase;
+}
+
+aside a {   
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1{   
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.midias-sociais li{
+    display: inline-block;
+}
+
+.midias-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url(../img/github.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png);
+}
+
