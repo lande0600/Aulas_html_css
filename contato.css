@@ -1,0 +1,86 @@
+title,
+label[for="mensagem"]{
+    font-weight: bold;
+    margin-top: 1em;
+}
+/*Para deixar os rótulos a cima*/
+label[for]{
+    display: block;
+}
+input[id="nome"],
+input[id="email"],
+textarea{
+    width: 100%;
+    font-size: 100%;
+    border: 1px solid #ccc;
+    padding: .25em .5em;
+    box-sizing: border-box;
+}
+fildset > fildset{
+    display: inline;
+}
+label[for="outro"]{
+    display: inline;
+}
+input[name="outro-assunto"]{
+    width: auto;    
+}
+input:focus,
+textarea:focus{
+    background-color: #FFD;
+}
+input:invalid{
+    box-shadow: 0 0 3px red;
+}
+button{
+    border: 0;
+    padding: .5em 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+    background-color: #3C1D3D;
+    color: white;
+    font-size: 1.2em;
+    /*faz com que o botão apareça do lado direito*/
+    margin-left: auto;
+    margin-top: 1em;
+    display: block;
+} 
+button:focus{
+    background-color: #8C1D3D;
+}
+button:hover{
+    background-color: #8C1D3D;
+}
+input[value="Outro"] ~ input{
+    display: none;
+}
+input[value="Outro"]:checked ~ input{
+    display: inline;
+}
+.com-icone{
+    position: relative;
+}
+.com-icone::after{
+    content: '';
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #8C1D3D;
+    background-position: center;
+    width: 2em;
+    height: 1.9em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+#nome,
+#email{
+    width: calc(100% - 2em);
+    position: relative;
+    left: 2em;
+}
+
+.com-icone[for="nome"]::after{
+    background-image: url(../img/usuario.png);
+}
+.com-icone[for="email"]::after{
+    background-image: url(../img/email.png);
+}

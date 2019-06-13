@@ -1,0 +1,14 @@
+.portfolio li{
+    display: inline-block;
+    width: 45%;
+    border: .5em solid black;
+    background-color: #FAFFFC;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+.portfolio img{
+    width: 100%;
+    box-shadow: 0 0 4px #000;
+}
